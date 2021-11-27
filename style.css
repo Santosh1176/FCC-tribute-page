@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  max-width: 100%;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: center;
+  background-color: rgb(245, 240, 234);
+  letter-spacing: 1.1;
+}
+
+#title {
+  font-weight: 600;
+  text-align: center;
+}
+
+.life {
+  display: flex;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.born,
+.dead {
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 5px 5px;
+}
+#image {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+#img-div {
+  max-width: 100%;
+  border: 3px solid rgb(214, 200, 200);
+  border-radius: 5px;
+  background-color: rgb(240, 231, 218);
+}
+
+#tribute {
+  padding: 2rem 5rem;
+  line-height: 1.1;
+  font-size: 1.2rem;
+}
+
+ul,
+li {
+  margin-top: 20px;
+  text-align: left;
+}
+ul,
+li:last-child {
+  margin-bottom: 30px;
+}
+
+#tribute-link {
+  text-decoration: none;
+  font-size: large;
+}
+
+p {
+  text-align: center;
+}
+.wiki {
+  text-decoration: none;
+  font-size: large;
+}
+
+.quote {
+  margin-bottom: 30px;
+  border: 1px solid #000;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
